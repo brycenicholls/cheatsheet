@@ -4,7 +4,7 @@ click here for James Q quick's [video](https://www.youtube.com/watch?v=pTCROLZLh
 
 `# Header 1`
 # Header 1
-`## Header 2
+`## Header 2`
 ## Header 2
 `### Header 3`
 ### Header 3
