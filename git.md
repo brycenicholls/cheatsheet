@@ -1,5 +1,5 @@
 ### Clone a remote reop
-git clone <url>
+`git clone  <url>
 ---
 ### View info about the remote repo
-git remote -A
+`git remote -A
