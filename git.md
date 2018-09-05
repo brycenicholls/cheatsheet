@@ -1,4 +1,6 @@
-### Clone a remote reop
+## Git commands
+
+### Clone a remote repo
 `git clone  <url>`
 ---
 ### View info about the remote repo
