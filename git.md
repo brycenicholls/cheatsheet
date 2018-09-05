@@ -21,3 +21,23 @@
 `git branch` to list the branches
 
 `git checkout <branch name>` will make the branch active
+
+### Push branch to remote repo
+`git push -u origin <branch name>`
+
+`git branch -a`
+
+### Merge with master branch
+`git checkout master`
+
+`git pull origin master`
+
+`git branch --merged`
+
+`git merge <branch name> `
+
+`git push origin master`
+
+`git branch -d <branch name` to delete local branch
+
+`git push origin --delete <branch name>` to delete the remote branch
