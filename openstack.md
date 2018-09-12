@@ -22,6 +22,10 @@ OS_AUTH_URL     ->      --os-auth-url
 ```
 openstack server set <--option> <server name>
 ```
+---
+
+# Users
+
 
 
 ## HEAT stack commands
