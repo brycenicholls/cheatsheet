@@ -6,9 +6,22 @@ OS_PASSWORD     ->      --os-password
 OS_PROJECT_NAME ->      --os-project-name
 OS_AUTH_URL     ->      --os-auth-url
 ```
+---
 
+## Token reneew
 
+``` openstack token issue ```
 
+## Token revoke
+
+``` openstack token revoke ```
+
+---
+
+## Change server settings
+```
+openstack server set <--option> <server name>
+```
 
 
 ## HEAT stack commands
