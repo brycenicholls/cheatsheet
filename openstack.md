@@ -12,4 +12,3 @@ Check the stack events
 
 ``` openstack stack event list <stack name> ```
 
----
