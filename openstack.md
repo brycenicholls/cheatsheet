@@ -1,3 +1,33 @@
+## Keystone Environment Var vs CLI
+
+``` bash
+OS_USERNAME     ->      --os-username
+OS_PASSWORD     ->      --os-password
+OS_PROJECT_NAME ->      --os-project-name
+OS_AUTH_URL     ->      --os-auth-url
+```
+---
+
+## Token renew
+
+``` openstack token issue ```
+
+## Token revoke
+
+``` openstack token revoke ```
+
+---
+
+## Change server settings
+```
+openstack server set <--option> <server name>
+```
+---
+
+# Users
+
+
+
 ## HEAT stack commands
 
 List stack and its status
@@ -8,17 +38,6 @@ See resources in the stack
 
 ``` openstack stack resource list <stack name> ```
 
-Check details of an instance built by the stack
-
-``` openstack stack resource show <stack name> <resource name> ```
-
 Check the stack events
 
 ``` openstack stack event list <stack name> ```
-
-List the parameters of the stack
-``` openstack stack output list <stack name> ```
-
-View the value of a parameter
-``` openstack stack output show <stack name> <resource name> ```
-
