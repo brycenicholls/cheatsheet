@@ -8,7 +8,7 @@ OS_AUTH_URL     ->      --os-auth-url
 ```
 ---
 
-## Token reneew
+## Token renew
 
 ``` openstack token issue ```
 
