@@ -45,6 +45,7 @@
 ### Fix commits sent to the wrong branch
 
 If you commit to the wrong branch by accident, 
+<<<<<<< HEAD
 1. Run a `git log` to get the commit hash
 ```
     bnicholls@terminal ✓ git log
@@ -54,5 +55,9 @@ If you commit to the wrong branch by accident,
 
         Updated git.md
 ```
+=======
+1. Run a `git log` to get the commit ID
+
+>>>>>>> 43039d9... Updated git.md
 2. 
 
