@@ -42,4 +42,10 @@
 
 `git push origin --delete <branch name>` to delete the remote branch
 
+### Fix commits sent to the wrong branch
+
+If you commit to the wrong branch by accident, 
+1. Run a `git log` to get the commit ID
+
+2. 
 
