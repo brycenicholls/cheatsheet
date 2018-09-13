@@ -47,12 +47,12 @@
 If you commit to the wrong branch by accident, 
 1. Run a `git log` to get the commit hash
 ```
-    bnicholls@terminal ✓ git log
-    commit 43039d95188c82ee60f784ca878cf011ea0ae38c (HEAD -> updates, origin/master, origin/HEAD, master)
-    Author: Bryce Nicholls <bnicholls@cloud.com>
-    Date:   Thu Sep 13 15:16:18 2018 +0100
+    bnicholls@uac00095 ✓ git log
+    commit ca2d7334a370a9eaa178f8968ed26f1572f1fccf (HEAD -> master)
+    Author: Bryce Nicholls <bnicholls@ukcloud.com>
+    Date:   Thu Sep 13 15:39:57 2018 +0100
 
-        Updated git.md
+        Sending commit to wrong branch  
 ```
 2. Checkout the branch you want to commit to
  
@@ -61,4 +61,6 @@ If you commit to the wrong branch by accident,
     bnicholls@uac00095 ✓ git checkout updates
     Switched to branch 'updates'
 ```
-3. Use git *cherry-pick to *
+3. Use *git cherry-pick* to copy the commit over to the desired branch
+```
+
