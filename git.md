@@ -54,5 +54,11 @@ If you commit to the wrong branch by accident,
 
         Updated git.md
 ```
-2. 
+2. Checkout the branch you want to commit to
+ 
 
+```
+    bnicholls@uac00095 ✓ git checkout updates
+    Switched to branch 'updates'
+```
+3. Use git *cherry-pick to *
