@@ -44,25 +44,3 @@
 
 ### Fix commits sent to the wrong branch
 
-If you commit to the wrong branch by accident, 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. Run a `git log` to get the commit hash
-```
-    bnicholls@terminal ✓ git log
-    commit 43039d95188c82ee60f784ca878cf011ea0ae38c (HEAD -> updates, origin/master, origin/HEAD, master)
-    Author: Bryce Nicholls <bnicholls@cloud.com>
-    Date:   Thu Sep 13 15:16:18 2018 +0100
-
-        Updated git.md
-```
-=======
-1. Run a `git log` to get the commit ID
-
->>>>>>> 43039d9... Updated git.md
-=======
-1. Run a `git log` to get the commit ID
-
->>>>>>> 43039d9... Updated git.md
-2. 
-
